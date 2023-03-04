@@ -1,0 +1,32 @@
+{"intents":[
+{ "tag": "saudacao",
+"patterns":["Ola","Opa","Oi", "tudo bem", "Bom dia", "Boa tarde", "Boa noite"],
+"responses": ["Oi","Olá","Olá, tudo bem?", "Olá, como posso ajudar?"]
+},
+{ "tag": "despedida",
+"patterns":["valeu","tchau","Obrigado","tks", "até mais", "até logo"],
+"responses": ["Até breve","Falou","Tchau!","Até a próxima."]
+},
+{ "tag": "data_prova",
+"patterns":["Quando sera a prova?","A prova será em que dia?"],
+"responses": ["A prova está marcada para o dia 26.","A data da prova é dia 26."]
+},
+
+{
+  "tag": "requisitos_tcc",
+  "patterns": ["Quais são os requisitos para o TCC?", "O que é preciso no TCC?"],
+  "responses": ["Os requisitos para o TCC incluem apresentação de um trabalho"]
+},
+{ "tag": "professor",
+"patterns":["Quem é o professor da disciplina?","Qual o nome do professor?"],
+"responses": ["O professor da disciplina é o professor Destro"]
+},
+{
+  "tag": "ajuda_tcc",
+  "patterns": ["Você pode me ajudar com meu TCC?", "Preciso de ajuda para o TCC"],
+  "responses": ["Claro, em que posso ajudar? Podemos discutir seu tema."]
+}
+
+
+]
+}
